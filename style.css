@@ -97,13 +97,50 @@ h2{
     text-align: center;
     text-justify: center;
     color: #1F2937;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
     max-width: 150px;
+    margin-top: 10px;
 }
 .card-group{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
+
+#third-block{
+    padding: 100px 350px 80px;
+    background-color: #E5E7EB;
+}
+#testimonial{
+    color: #1F2937;
+    font-style: italic;
+    font-weight:lighter;
+    font-size: 36px;
+}
+#author{
+    color: #1F2937;
+    font-weight:bolder;
+    text-align: right;
+    font-size: 22px;
+    padding: 0 30px;
+}
+
+#forth-block{
+    background-color: #3882F6;
+    margin: 100px 250px;
+    padding:50px 80px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+#forth-block button{
+    color: #F9FAF8;
+    border: solid 3px #F9FAF8;
+    border-radius: 10px;
+}
+
