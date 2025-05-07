@@ -129,18 +129,39 @@ h2{
 }
 
 #forth-block{
+    box-sizing: content-box;
     background-color: #3882F6;
-    margin: 100px 250px;
-    padding:50px 80px;
+    margin: 80px 250px;
+    padding:45px 105px;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     border-radius: 10px;
 }
+#forth-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:0;
+}
+#forth-left h3{
+    font-size: 25px;
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
 #forth-block button{
+    padding: 7px 35px;
     color: #F9FAF8;
     border: solid 3px #F9FAF8;
     border-radius: 10px;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 50px 0;
 }
 
